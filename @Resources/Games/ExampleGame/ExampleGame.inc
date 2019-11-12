@@ -15,15 +15,15 @@
 ; All of this information can be changed at will, but do be aware of what these 
 ; actually affect so as to not cause PEBKAC errors. 
 [Variables]
-CurrentScreen  =ExampleScreen
+CurrentScreen  =ExampleScreen2
 GameWidth      = 15
 GameHeight     = 20
 TileSize       = 16
 HudPanelColour = 40,40,40,255 
 HudPanelWidth  = 130
 ButtonSize     = 20
-PlayerX        =4
-PlayerY        =5
+PlayerX        =8
+PlayerY        =7
 
 
 ; This is where you drawn your game's HUD and controls.
