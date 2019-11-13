@@ -28,17 +28,21 @@ PlayerY        =5
 
 ; This is where you drawn your game's HUD and controls.
 ; Use the various groups to have things hidden/shown at certain times.
+; Be sure you add everything that gets drawn here to the Control group
+; Or it'll cause problems when you're using the screen editor
 
 
 ; Drawing the Hud/Control panel background
 [HudPanelBG]
 Meter = Shape
+Group = Control
 Shape = Rectangle (#GameWidth# * #TileSize#), 0, #HudPanelWidth#, (#GameHeight# * #TileSize#) | FillColor #HudPanelColour# | StrokeWidth 0
 
 ; Drawing the Hud/Control panel title
 [HudPanelTitle]
 Meter = String
-Text = Hud Panel
+Group = Control
+Text  = Hud Panel
 FontSize = 15
 X = (#GameWidth# * #TileSize# + #HudPanelWidth#/10)
 Y = 5
@@ -54,21 +58,25 @@ Y = 5
 ; - MoveDown
 [UP]
 Meter = Shape
+Group = Control
 Shape = Rectangle (#GameWidth# * #TileSize# + #HudPanelWidth# / 2 - #ButtonSize# / 2), (#GameHeight# * #TileSize# - #ButtonSize# * 4.2), #ButtonSize#, #ButtonSize# | FillColor 255,255,255,255 | StrokeWidth 0
 LeftMouseUpAction = [!UpdateMeasureGroup MoveUp]
 
 [LEFT]
 Meter = Shape
+Group = Control
 Shape = Rectangle (#GameWidth# * #TileSize# + #HudPanelWidth# / 2 - #ButtonSize# * 1.8), (#GameHeight# * #TileSize# - #ButtonSize# * 3), #ButtonSize#, #ButtonSize# | FillColor 255,255,255,255 | StrokeWidth 0
 LeftMouseUpAction = [!UpdateMeasureGroup MoveLeft]
 
 [RIGHT]
 Meter = Shape
+Group = Control
 Shape = Rectangle (#GameWidth# * #TileSize# + #HudPanelWidth# / 2 + #ButtonSize# * 0.8), (#GameHeight# * #TileSize# - #ButtonSize# * 3), #ButtonSize#, #ButtonSize# | FillColor 255,255,255,255 | StrokeWidth 0
 LeftMouseUpAction = [!UpdateMeasureGroup MoveRight]
 
 [DOWN]
 Meter = Shape
+Group = Control
 Shape = Rectangle (#GameWidth# * #TileSize# + #HudPanelWidth# / 2 - #ButtonSize# / 2), (#GameHeight# * #TileSize# - #buttonSize# * 1.8), #ButtonSize#, #ButtonSize# | FillColor 255,255,255,255 | StrokeWidth 0
 LeftMouseUpAction = [!UpdateMeasureGroup MoveDown]
 
