@@ -29,8 +29,8 @@ Tile5 = 2
 Tile6 = 3
 
 ; Set the screen and x/y the player gets sent to when colliding with a tile of type 3
-X5      = 8
-Y5      = 7
+X5      = 7
+Y5      = 5
 Screen5 = ExampleScreen2
 
 ; Set the FROM/TO tile types as well as the object layer (if any) to be drawn over the screen

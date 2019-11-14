@@ -16,6 +16,7 @@
 ; actually affect so as to not cause PEBKAC errors. 
 [Variables]
 CurrentScreen  =ExampleScreen
+PlayerSprite   = Hero
 GameWidth      = 15
 GameHeight     = 20
 TileSize       = 16

@@ -14,7 +14,7 @@
 ; The background image for this screen. You can forego this and draw the screen yourself if you'd prefer more granular control. 
 Background = ExampleScreen2.png
 ; This long string of numbers is determining the collisions. You can use any character as a tile type. Here I'm using 0/1 as non colliding tiles, 2 as colliding tiles, and 3/4 as portals depending on the screen. 
-Collisions = 0000000000000000022222000000000221112220000000211111120000000211122122232200211112112411200211211112111200221111111122200021111111120000022221111122000000021111112000000022221222000000000022200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Collisions =000000020204200000002200240222202022220220402000022222024002000002222020002020000232022022000000000002020200000000020002211110000000022211110000020022221111110000022221111110000222222111111122222222211111122222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222
 ; Define what each tile type does. No definition = normal collision, no hook.
 ; 0 = no collision
 ; 1 = no collision, random encounters (currently not implemented)
@@ -23,14 +23,14 @@ Collisions = 0000000000000000022222000000000221112220000000211111120000000211122
 ; 4 = No collision, Swap Collissions, one-way
 ; Every other character is normal collision, with a hook
 Tile0 = 0
-Tile1 = 0
-Tile3 = 1
-Tile4 = 2
+Tile1 = 1
+Tile3 = 2
+Tile4 = 0
 
 ; Set the screen and x/y the player gets sent to when colliding with a tile of type 4
-X4      = 11
-Y4      = 5
-Screen4 = ExampleScreen
+X3      = 11
+Y3      = 5
+Screen3 = ExampleScreen
 
 ; You can hook into a collision with ANY tiletype by creating a measure with a group of that tile. 
 ; Use Disabled = 1 and group = NoUpdate | TileX
