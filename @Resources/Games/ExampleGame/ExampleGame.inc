@@ -15,7 +15,7 @@
 ; All of this information can be changed at will, but do be aware of what these 
 ; actually affect so as to not cause PEBKAC errors. 
 [Variables]
-CurrentScreen  =ExampleScreen
+CurrentScreen  =ExampleScreen2
 ; The game will use HeroUp.png, HeroLeft.png, HeroRight.png and HeroDown.png with a PlayerSprite of Hero.
 ; So make sure you have all those four images in the Game/Resources/Sprites folder
 PlayerSprite   = Hero
@@ -25,8 +25,39 @@ TileSize       = 16
 HudPanelColour = 40,40,40,255 
 HudPanelWidth  = 130
 ButtonSize     = 20
-PlayerX        =11
+PlayerX        =7
 PlayerY        =5
+
+; You can define tiles here, for tiles that will persist across screens.
+; Definitions in the individual screens will overwrite these if there
+; are duplicates.
+; I like to define the majority of tiles here so I know what I'm working 
+; with as I develop more screens.
+; A typical use for overwriting tile definitions would be to change 
+; Tile0 to 1 so you get random encounters on that tile for that screen
+
+; Basic Collision Tile
+Tile0 =
+; Dirt
+Tile1 = 0
+; Grass
+Tile2 = 0
+; Sand
+Tile3 = 0
+; Stone
+Tile4 = 0
+; Shallow Water
+Tile5 = 0
+;
+
+; You can define sounds here as well. More information in ExampleScreen.inc
+Sound0 = PP_Small_Impact_1_1
+Sound1 = stepdirt_7
+Sound2 = stepdirt_7
+Sound3 = stepdirt_2
+Sound4 = stepstone_3
+Sound5 = stepwater_2
+
 
 
 ; This is where you drawn your game's HUD and controls.

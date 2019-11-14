@@ -14,7 +14,7 @@
 ; The background image for this screen. You can forego this and draw the screen yourself if you'd prefer more granular control. 
 Background = ExampleScreen.png
 ; This long string of numbers is determining the collisions. You can use any character as a tile type. Here I'm using 0/1 as non colliding tiles, 2 as colliding tiles, and 3/4 as portals depending on the screen. 
-Collisions =000000000000000002222200000000022111222000000021111112000000021112212223220021111211241120021121111211120022111111112220002111111112000002222111112200000002111111200000002222122200000000002220000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+Collisions =00000000000000000000000000000000044400000000000444444000000000444004000c0000044440410a4400004404444044400000444444440000000444444440000000000444440000000000444444000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 ; Define what each tile type does. No definition = normal collision, no hook.
 ; 0 = no collision
 ; 1 = no collision, random encounters (currently not implemented)
@@ -22,27 +22,35 @@ Collisions =00000000000000000222220000000002211122200000002111111200000002111221
 ; 3 = Collision, Swap Collisions, one-way
 ; 4 = No collision, Swap Collissions, one-way
 ; Every other character is normal collision, with a hook
-Tile0 = 0
-Tile1 = 0
-Tile4 = 3
-Tile5 = 2
-Tile6 = 3
+
+; You can also define tiles in the [Variables] section in the game's main file
+Tiled = 2
+Tilea = 3
+Tileb = 3
+
+; Define sound files for each tile
+; These will play when the player tries to walk onto that tile type
+; For common tiles that will sound the same across screens, 
+; you can define them in the [Variables] section in the game's main file.
+Sounda = PP_Heavy_Impact_1_1
+Soundb = PP_Heavy_Impact_1_2
+Soundc = stepdirt_7
 
 ; Set the screen and x/y the player gets sent to when colliding with a tile of type 3
-X5      = 7
-Y5      = 5
-Screen5 = ExampleScreen2
+Xd      = 7
+Yd      = 5
+Screend = ExampleScreen2
 
 ; Set the FROM/TO tile types as well as the object layer (if any) to be drawn over the screen
 ; Can have up to 10 sets of tiles get swapped
 ; Prefix the ObjectLayer name with > to delete that object layer
-From4        = 34
-To4          = 56
-ObjectLayer4 = OpenDoor.png
+Froma        = ca
+Toa          = db
+ObjectLayera = OpenDoor.png
 
-From6        = 56
-To6          = 34
-ObjectLayer6 = >OpenDoor.png
+Fromb        = db
+Tob          = ca
+ObjectLayerb = >OpenDoor.png
 
 ; You can hook into a collision with ANY tiletype by creating a measure with a group of that tile. 
 ; Use Disabled = 1 and group = NoUpdate | TileX
