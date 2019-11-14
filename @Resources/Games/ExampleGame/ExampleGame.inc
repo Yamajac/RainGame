@@ -16,6 +16,8 @@
 ; actually affect so as to not cause PEBKAC errors. 
 [Variables]
 CurrentScreen  =ExampleScreen
+; The game will use HeroUp.png, HeroLeft.png, HeroRight.png and HeroDown.png with a PlayerSprite of Hero.
+; So make sure you have all those four images in the Game/Resources/Sprites folder
 PlayerSprite   = Hero
 GameWidth      = 15
 GameHeight     = 20
@@ -31,6 +33,9 @@ PlayerY        =5
 ; Use the various groups to have things hidden/shown at certain times.
 ; Be sure you add everything that gets drawn here to the Control group
 ; Or it'll cause problems when you're using the screen editor
+; Or don't, I'm not the boss of you. But if you wanna use the screen editor
+; Then add them to the Control group to make it less stupid.
+; Still stupid, but less so.
 
 
 ; Drawing the Hud/Control panel background
