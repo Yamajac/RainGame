@@ -21,6 +21,7 @@ Collisions =00000000000000000000000000000000044400000000000444444000000000444004
 ; 2 = Portal to another screen
 ; 3 = Collision, Swap Collisions, one-way
 ; 4 = No collision, Swap Collissions, one-way
+; 5 = No collision, when all of these have entities on them trigger an event
 ; Every other character is normal collision, with a hook
 
 ; You can also define tiles in the [Variables] section in the game's main file

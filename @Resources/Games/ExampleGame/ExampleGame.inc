@@ -16,7 +16,11 @@
 ; actually affect so as to not cause PEBKAC errors. 
 [Variables]
 CurrentScreen  =ExampleScreen2
-; The game will use HeroUp.png, HeroLeft.png, HeroRight.png and HeroDown.png with a PlayerSprite of Hero.
+; The game will use Hero0.png, Hero1.png, Hero2.png and Hero3.png with a PlayerSprite of Hero.
+; 0 = up
+; 1 = left
+; 2 = right
+; 3 = down
 ; So make sure you have all those four images in the Game/Resources/Sprites folder
 PlayerSprite   = Hero
 GameWidth      = 15
