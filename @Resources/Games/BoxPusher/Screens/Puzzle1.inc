@@ -1,0 +1,45 @@
+[Variables]
+Background = PuzzleRoom.png
+Collisions =000000030000000011111111111110011444111010110011111111111110000011111100000000011111110000000011111110000000011111110000000011111110000000011111110000000011111110000000011111110000000011111110000000011111110000000011111110000000011111110000000011111110000000011111110000000011111110000000000010000000
+
+
+X3 = 7
+Y3 = 19
+Screen3 = Puzzle2
+
+Entities = Box1|Box2|Box3|Box4|Box5|Box6|Box7
+
+Box1X     = 4
+Box1Y     = 14
+Box1Type  = 0
+Box1Image = Box
+
+Box2X     = 5
+Box2Y     = 14
+Box2Type  = 0
+Box2Image = Box
+
+Box3X     = 6
+Box3Y     = 14
+Box3Type  = 0
+Box3Image = Box
+
+Box4X     = 7
+Box4Y     = 14
+Box4Type  = 0
+Box4Image = Box
+
+Box5X     = 8
+Box5Y     = 14
+Box5Type  = 0
+Box5Image = Box
+
+Box6X     = 9
+Box6Y     = 14
+Box6Type  = 0
+Box6Image = Box
+
+Box7X     = 10
+Box7Y     = 14
+Box7Type  = 0
+Box7Image = Box
