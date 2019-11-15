@@ -34,25 +34,36 @@ Ya      = 5
 Screena = ExampleScreen
 
 ; Entity stuff
-Entities = Slime1|Slime2|Slime3
+Entities = Slime1|Slime2|Slime3|Box1|Box2
 
 ; Entities need to be manually placed in the world for now. 
 ; Give them an X, a Y, Entity type and an Image
 ; 0 = Pushed on collision
+; 1 = battle (not currently implemented)
 Slime1X     = 9
 Slime1Y     = 9
-Slime1Type  = 0
+Slime1Type  = 1
 Slime1Image = Slime
 
 Slime2X     = 8
 Slime2Y     = 6
-Slime2Type  = 0
+Slime2Type  = 1
 Slime2Image = Slime
 
 Slime3X     = 12
 Slime3Y     = 4
-Slime3Type  = 0
+Slime3Type  = 1
 Slime3Image = Slime
+
+Box1X     = 1
+Box1Y     = 4
+Box1Type  = 0
+Box1Image = Box
+
+Box2X     = 5
+Box2Y     = 6
+Box2Type  = 0
+Box2Image = Box
 
 ; You can hook into a collision with ANY tiletype by creating a measure with a group of that tile. 
 ; Use Disabled = 1 and group = NoUpdate | TileX
