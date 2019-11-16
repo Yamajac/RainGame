@@ -10,9 +10,9 @@
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 [Variables]
-CurrentScreen  =HomeGroundFloor
-PlayerX        =7
-PlayerY        =5
+CurrentScreen  =PalletTown
+PlayerX        =12
+PlayerY        =48
 
 PlayerSprite   = Hero
 GameWidth      = 15

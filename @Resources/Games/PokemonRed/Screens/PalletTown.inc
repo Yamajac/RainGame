@@ -31,6 +31,14 @@ Tileb = 2
 Tilec = 2
 
 ; Set the screen and x/y the player gets sent to when colliding with a tile of type 3
-Xa      = 7
-Ya      = 5
+Xa      = 3
+Ya      = 7
 Screena = HomeGroundFloor
+
+Xb      = 3
+Yb      = 7
+Screenb = RivalGroundFloor
+
+Xc      = 5
+Yc      = 11
+Screenc = ProfessorOaksLab
