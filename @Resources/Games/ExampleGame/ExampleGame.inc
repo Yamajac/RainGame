@@ -14,8 +14,13 @@
 ; needs to know about this game. Various flags and settings can be set here.
 ; All of this information can be changed at will, but do be aware of what these 
 ; actually affect so as to not cause PEBKAC errors. 
+; Everything except for the Current Screen, PlayerX and PlayerY can be 
+; overwritten in the CurrentScreen file.
 [Variables]
-CurrentScreen  =ExampleScreen
+CurrentScreen  =ExampleScreen2
+PlayerX        =7
+PlayerY        =5
+
 ; The game will use Hero0.png, Hero1.png, Hero2.png and Hero3.png with a PlayerSprite of Hero.
 ; 0 = up
 ; 1 = left
@@ -29,8 +34,8 @@ TileSize       = 16
 HudPanelColour = 40,40,40,255 
 HudPanelWidth  = 130
 ButtonSize     = 20
-PlayerX        =11
-PlayerY        =5
+Scrolling      = 0
+
 
 ; You can define tiles here, for tiles that will persist across screens.
 ; Definitions in the individual screens will overwrite these if there

@@ -9,44 +9,33 @@
 ;   The actual screens are built separately, this file just stores save data.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-; The Variables section contains all the save data as well as information the engine
-; needs to know about this game. Various flags and settings can be set here.
-; All of this information can be changed at will, but do be aware of what these 
-; actually affect so as to not cause PEBKAC errors. 
 [Variables]
-CurrentScreen  =Puzzle2
+CurrentScreen  =HomeGroundFloor
+PlayerX        =7
+PlayerY        =5
+
 PlayerSprite   = Hero
 GameWidth      = 15
-GameHeight     = 20
+GameHeight     = 15
 TileSize       = 16
 HudPanelColour = 40,40,40,255 
 HudPanelWidth  = 130
 ButtonSize     = 20
-PlayerX        =7
-PlayerY        =19
-
-; If you want larger worlds that scroll as you move give Scrolling = 1
-; Otherwise use Scrolling = 0
-Scrolling = 0
+Scrolling = 1
 
 ; Basic Collision Tile
 Tile0 =
-; Stone
+; Basic Non Collision, No Encounter Tile
 Tile1 = 0
-; Portals
-Tile2 = 2
-Tile3 = 2
+; Basic Non Collision, Encounter Tile
+Tile2 = 0
 
-Sound1 = stepstone_3
-
-
-
-
+; Drawing the Hud/Control panel background
 [HudPanelBG]
 Meter = Shape
 Group = Control
 Shape = Rectangle (#GameWidth# * #TileSize#), 0, #HudPanelWidth#, (#GameHeight# * #TileSize#) | FillColor #HudPanelColour# | StrokeWidth 0
+; Drawing the Hud/Control panel title
 [HudPanelTitle]
 Meter = String
 Group = Control
