@@ -25,7 +25,7 @@ Background = ProfessorOaksLab.png
 ScreenWidth  = 10
 ScreenHeight = 12
 Collisions=000000000000001100001111111111111111000111111111111111111111000011000000001100001111111111111111111111111111111111aa1111
-Scrolling = 0
+Scrolling = 1
 Tilea = 2
 
 ; Set the screen and x/y the player gets sent to when colliding with a tile of type 3

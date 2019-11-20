@@ -11,8 +11,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 [Variables]
 CurrentScreen  =PalletTown
-PlayerX        =5
-PlayerY        =42
+PlayerX        =12
+PlayerY        =48
 
 PlayerSprite   = Hero
 GameWidth      = 10
@@ -78,7 +78,11 @@ LeftMouseUpAction = [!UpdateMeasureGroup TextBoxClick]
 Meter  = String
 Group  = TextBox
 Text   = #TextBoxText#
-FontSize = 140
+FontSize = 12
+AntiAlias = 0
+Y = (((#GameHeight# * (#TileSize# * #Scale#)) * (2/3)) + 13 * #Scale#)
+X = (7 * #Scale#)
+FontFace = PKMN RBYGSC
 Container = TopContainer
 DynamicVariables = 1 
 
