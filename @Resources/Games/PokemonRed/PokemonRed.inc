@@ -9,10 +9,20 @@
 ;   The actual screens are built separately, this file just stores save data.
 ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[Rainmeter]
+; Technically LocalFont is "Discontinued" but goddammit it's so much better.
+; So we just use it anyway and say screw you devs
+; If it ever gets completely dropped (it won't) then we have to move the .ttf
+; To the #@#\Fonts folder instead which means games can't define custom fonts
+; Without the font being installed separately
+; AND NOBODY WANTS THAT
+; THIS IS A PROPER GOOD REAL GAME ENGINE DAMMIT
+LocalFont = "#@#Games\PokemonRed\Resources\Fonts\PKMN RBYGSC.ttf"
 [Variables]
-CurrentScreen  =PalletTown
-PlayerX        =12
-PlayerY        =48
+CurrentScreen  =ProfessorOaksLab
+PlayerX        =5
+PlayerY        =11
 
 PlayerSprite   = Hero
 GameWidth      = 10
