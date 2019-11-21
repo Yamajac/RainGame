@@ -45,13 +45,13 @@ Ball1X     = 6
 Ball1Y     = 3
 Ball1Type  = 2
 Ball1Image = PokeBallOverworld
-Ball1Dialog = Squirtle
+Ball1Dialog = Charmander
 
 Ball2X     = 7
 Ball2Y     = 3
 Ball2Type  = 2
 Ball2Image = PokeBallOverworld
-Ball2Dialog = Charmander
+Ball2Dialog = Squirtle
 
 Ball3X     = 8
 Ball3Y     = 3
