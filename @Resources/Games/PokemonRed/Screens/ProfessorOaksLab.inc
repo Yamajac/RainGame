@@ -40,17 +40,21 @@ Entities = Ball1|Ball2|Ball3
 ; Give them an X, a Y, Entity type and an Image
 ; 0 = Pushed on collision
 ; 1 = battle (not currently implemented)
+; 2 = TextBox
 Ball1X     = 6
 Ball1Y     = 3
-Ball1Type  = 1
+Ball1Type  = 2
 Ball1Image = PokeBallOverworld
+Ball1Dialog = Squirtle
 
 Ball2X     = 7
 Ball2Y     = 3
-Ball2Type  = 1
+Ball2Type  = 2
 Ball2Image = PokeBallOverworld
+Ball2Dialog = Charmander
 
 Ball3X     = 8
 Ball3Y     = 3
-Ball3Type  = 1
+Ball3Type  = 2
 Ball3Image = PokeBallOverworld
+Ball3Dialog = Bulbasaur
