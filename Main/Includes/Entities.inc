@@ -12,7 +12,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){0}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,0}.*?N(.*?)(\||$).*":"\3" 
 [Entity1]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -31,7 +31,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){1}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,1}.*?N(.*?)(\||$).*":"\3" 
 [Entity2]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -50,7 +50,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){2}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,2}.*?N(.*?)(\||$).*":"\3" 
 [Entity3]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -69,7 +69,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){3}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,3}.*?N(.*?)(\||$).*":"\3" 
 [Entity4]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -88,7 +88,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){4}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,4}.*?N(.*?)(\||$).*":"\3" 
 [Entity5]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -107,7 +107,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){5}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,5}.*?N(.*?)(\||$).*":"\3" 
 [Entity6]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -126,7 +126,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){6}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,6}.*?N(.*?)(\||$).*":"\3" 
 [Entity7]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -145,7 +145,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){7}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,7}.*?N(.*?)(\||$).*":"\3" 
 [Entity8]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -164,7 +164,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){8}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,8}.*?N(.*?)(\||$).*":"\3" 
 [Entity9]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -183,7 +183,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){9}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,9}.*?N(.*?)(\||$).*":"\3" 
 [Entity10]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -202,7 +202,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){10}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,10}.*?N(.*?)(\||$).*":"\3" 
 [Entity11]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -221,7 +221,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){11}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,11}.*?N(.*?)(\||$).*":"\3" 
 [Entity12]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -240,7 +240,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){12}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,12}.*?N(.*?)(\||$).*":"\3" 
 [Entity13]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -259,7 +259,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){13}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,13}.*?N(.*?)(\||$).*":"\3" 
 [Entity14]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -278,7 +278,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){14}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,14}.*?N(.*?)(\||$).*":"\3" 
 [Entity15]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -297,7 +297,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){15}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,15}.*?N(.*?)(\||$).*":"\3" 
 [Entity16]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -316,7 +316,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){16}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,16}.*?N(.*?)(\||$).*":"\3" 
 [Entity17]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -335,7 +335,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){17}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,17}.*?N(.*?)(\||$).*":"\3" 
 [Entity18]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -354,7 +354,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){18}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,18}.*?N(.*?)(\||$).*":"\3" 
 [Entity19]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -373,7 +373,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){19}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,19}.*?N(.*?)(\||$).*":"\3" 
 [Entity20]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -392,7 +392,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){20}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,20}.*?N(.*?)(\||$).*":"\3" 
 [Entity21]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -411,7 +411,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){21}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,21}.*?N(.*?)(\||$).*":"\3" 
 [Entity22]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -430,7 +430,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){22}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,22}.*?N(.*?)(\||$).*":"\3" 
 [Entity23]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -449,7 +449,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){23}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,23}.*?N(.*?)(\||$).*":"\3" 
 [Entity24]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -468,7 +468,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){24}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,24}.*?N(.*?)(\||$).*":"\3" 
 [Entity25]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -487,7 +487,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){25}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,25}.*?N(.*?)(\||$).*":"\3" 
 [Entity26]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -506,7 +506,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){26}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,26}.*?N(.*?)(\||$).*":"\3" 
 [Entity27]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -525,7 +525,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){27}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,27}.*?N(.*?)(\||$).*":"\3" 
 [Entity28]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -544,7 +544,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){28}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,28}.*?N(.*?)(\||$).*":"\3" 
 [Entity29]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -563,7 +563,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){29}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,29}.*?N(.*?)(\||$).*":"\3" 
 [Entity30]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -582,7 +582,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){30}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,30}.*?N(.*?)(\||$).*":"\3" 
 [Entity31]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -601,7 +601,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){31}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,31}.*?N(.*?)(\||$).*":"\3" 
 [Entity32]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -620,7 +620,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){32}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,32}.*?N(.*?)(\||$).*":"\3" 
 [Entity33]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -639,7 +639,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){33}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,33}.*?N(.*?)(\||$).*":"\3" 
 [Entity34]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -658,7 +658,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){34}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,34}.*?N(.*?)(\||$).*":"\3" 
 [Entity35]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -677,7 +677,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){35}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,35}.*?N(.*?)(\||$).*":"\3" 
 [Entity36]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -696,7 +696,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){36}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,36}.*?N(.*?)(\||$).*":"\3" 
 [Entity37]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -715,7 +715,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){37}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,37}.*?N(.*?)(\||$).*":"\3" 
 [Entity38]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -734,7 +734,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){38}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,38}.*?N(.*?)(\||$).*":"\3" 
 [Entity39]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -753,7 +753,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){39}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,39}.*?N(.*?)(\||$).*":"\3" 
 [Entity40]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -772,7 +772,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){40}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,40}.*?N(.*?)(\||$).*":"\3" 
 [Entity41]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -791,7 +791,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){41}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,41}.*?N(.*?)(\||$).*":"\3" 
 [Entity42]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -810,7 +810,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){42}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,42}.*?N(.*?)(\||$).*":"\3" 
 [Entity43]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -829,7 +829,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){43}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,43}.*?N(.*?)(\||$).*":"\3" 
 [Entity44]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -848,7 +848,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){44}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,44}.*?N(.*?)(\||$).*":"\3" 
 [Entity45]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -867,7 +867,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){45}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,45}.*?N(.*?)(\||$).*":"\3" 
 [Entity46]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -886,7 +886,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){46}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,46}.*?N(.*?)(\||$).*":"\3" 
 [Entity47]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -905,7 +905,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){47}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,47}.*?N(.*?)(\||$).*":"\3" 
 [Entity48]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -924,7 +924,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){48}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,48}.*?N(.*?)(\||$).*":"\3" 
 [Entity49]
 Meter      = Image
 MeterStyle = EntityStyle
@@ -943,7 +943,7 @@ String  = [Entities]
 Group   = EntityUpdate
 DynamicVariables = 1
 RegExpSubstitute = 1
-Substitute       = "((.*?)\|){49}.*?N(.*?)(\||$).*":"\3" 
+Substitute       = "((.*?)\|){0,49}.*?N(.*?)(\||$).*":"\3" 
 [Entity50]
 Meter      = Image
 MeterStyle = EntityStyle

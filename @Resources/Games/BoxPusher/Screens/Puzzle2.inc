@@ -8,7 +8,7 @@ X2 = 7
 Y2 = 1
 Screen2 = Puzzle1
 
-Entities = Box1|Box2|Box3|Box4|Box5|Box6|Box7|Box8|Box9|Box10|Box11|Box12|Box13|Box14|Box15
+Entities = Box1|Box2|Box3|Box4|Box5|Box6|Box7|Box8|Box9|Box10|Box11|Box12|Box13|Box14
 
 Box1X     = 4
 Box1Y     = 14

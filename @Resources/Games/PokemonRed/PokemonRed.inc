@@ -20,9 +20,9 @@
 ; THIS IS A PROPER GOOD REAL GAME ENGINE DAMMIT
 LocalFont = "#@#Games\PokemonRed\Resources\Fonts\PKMN RBYGSC.ttf"
 [Variables]
-CurrentScreen  =PalletTown
-PlayerX        =12
-PlayerY        =48
+CurrentScreen  =ProfessorOaksLab
+PlayerX        =5
+PlayerY        =11
 
 PlayerSprite   = Hero
 GameWidth      = 10
